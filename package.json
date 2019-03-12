@@ -1,0 +1,44 @@
+{
+  "name": "base_node_app",
+  "version": "1.0.0",
+  "description": "Base node application with MVC setup",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app.js",
+    "dev": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TuriGuilano/base_node_app.git"
+  },
+  "keywords": [
+    "node",
+    "||",
+    "serverside",
+    "app",
+    "||",
+    "templating",
+    "||",
+    "model",
+    "view",
+    "controller",
+    "||"
+  ],
+  "author": "ioanniskapritsias",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/TuriGuilano/base_node_app/issues"
+  },
+  "homepage": "https://github.com/TuriGuilano/base_node_app#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "chalk": "^2.4.2",
+    "ejs": "^2.6.1",
+    "express": "^4.16.4"
+  },
+  "devDependencies": {
+    "dotenv": "^6.2.0",
+    "nodemon": "^1.18.10"
+  }
+}
